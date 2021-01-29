@@ -9,7 +9,7 @@
 - make sure backned api is currently running(could have mocked axios calls but for the purpose of this project I felt it wasn't exactly neccesary especially in the effort of not overengineering the solution)
 - run "npm run cypress"
 - this should open up a cypress window where you can see app.test.js, menu.test.js, and tweet.test.js
-- click each file to run the test cases and see the browser running through the tests. I think this neat to watch the test happening in real time
+- click each file to run the test cases and see the browser running through the tests. I think this is neat to watch the test happening in real time
 - alternatively you can simply use "npm run cypress_tests" to run the tests in the terminal
 - the code for the test files can be found in cypress/component directory
 
@@ -22,7 +22,7 @@
 - Eslint for linting and formatting
 
 ## Unit testing
-- app.test.js test that
+- app.test.js
     - items are rendered on click of handle
     - more tweets are rendered on scroll(sometimes fails on first load of cypress for some reason, so it will retry on its own 1 time. Tried to debug couldn't really figure out why this was happening)
     - check if menu causes scroll to snap back to top
