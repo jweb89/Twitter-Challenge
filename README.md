@@ -22,7 +22,7 @@
 - Eslint for linting and formatting
 
 ## Unit testing
-- app.test.js test that
+- app.test.js
     - items are rendered on click of handle
     - more tweets are rendered on scroll(sometimes fails on first load of cypress for some reason, so it will retry on its own 1 time. Tried to debug couldn't really figure out why this was happening)
     - check if menu causes scroll to snap back to top
