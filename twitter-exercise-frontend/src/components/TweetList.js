@@ -48,7 +48,6 @@ const TweetList = ({ isActive }) => {
     <>
       {tweets
         ? tweets.map((item) => (
-            // console.log(item);
             <Tweet
               date={item.created_at}
               text={item.full_text}
@@ -66,6 +65,7 @@ const TweetList = ({ isActive }) => {
 
 export default TweetList;
 
+// Copy of tweets object used for mapping data
 // {
 //     "created_at": "Sat Jan 23 22:33:03 +0000 2021",
 //     "id": 1353108511610204200,

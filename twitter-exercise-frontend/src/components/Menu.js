@@ -45,20 +45,6 @@ const Menu = ({ setIsActive, isActive }) => {
           @{secondHandle}
         </button>
       </div>
-      {/* <button
-            onClick={() => handleClick(firstHandle)}
-            className="btn btn-primary"
-            type="button"
-          >
-            @{firstHandle}
-          </button>
-          <button
-            onClick={() => handleClick(secondHandle)}
-            className="btn btn-primary"
-            type="button"
-          >
-            @{secondHandle}
-          </button> */}
     </div>
   );
 };

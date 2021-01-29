@@ -15,7 +15,6 @@ const Tweet = ({ date, text, hashtags, profileImage, name }) => (
       </div>
     </div>
     <div className="card-body">
-      {/* <h5 className="card-title">Light card title</h5> */}
       <p className="card-text">{text}</p>
       {hashtags
         ? hashtags.map((hashtag) => (
