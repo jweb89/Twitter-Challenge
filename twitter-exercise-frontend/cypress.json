@@ -1,0 +1,7 @@
+{
+     "experimentalComponentTesting": true,
+     "componentFolder": "cypress",
+     "retries": 1,
+     "testFiles": "**/*.test.js",
+     "video":false
+}
