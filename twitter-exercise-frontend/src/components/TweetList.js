@@ -65,7 +65,7 @@ const TweetList = ({ isActive }) => {
 
 export default TweetList;
 
-// Copy of tweets object used for mapping data
+// Copy of tweets object used for reference
 // {
 //     "created_at": "Sat Jan 23 22:33:03 +0000 2021",
 //     "id": 1353108511610204200,

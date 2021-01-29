@@ -24,7 +24,6 @@ const Menu = ({ setIsActive, isActive }) => {
             outline: 'none',
           }}
           onClick={() => handleClick(firstHandle)}
-          tabIndex={0}
         >
           @{firstHandle}
         </button>
@@ -40,7 +39,6 @@ const Menu = ({ setIsActive, isActive }) => {
             outline: 'none',
           }}
           onClick={() => handleClick(secondHandle)}
-          tabIndex={0}
         >
           @{secondHandle}
         </button>
