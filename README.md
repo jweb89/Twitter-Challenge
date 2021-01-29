@@ -9,7 +9,7 @@
 - make sure backned api is currently running(could have mocked axios calls but for the purpose of this project I felt it wasn't exactly neccesary especially in the effort of not overengineering the solution)
 - run "npm run cypress"
 - this should open up a cypress window where you can see app.test.js, menu.test.js, and tweet.test.js
-- click each file to run the test cases and see the browser running through the tests. I think this neat to watch the test happening in real time
+- click each file to run the test cases and see the browser running through the tests. I think this is neat to watch the test happening in real time
 - alternatively you can simply use "npm run cypress_tests" to run the tests in the terminal
 - the code for the test files can be found in cypress/component directory
 
