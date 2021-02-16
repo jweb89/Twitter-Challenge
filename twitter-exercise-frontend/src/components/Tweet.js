@@ -6,7 +6,7 @@ TimeAgo.addDefaultLocale(en);
 const timeAgo = new TimeAgo('en-US');
 
 const Tweet = ({ date, text, hashtags, profileImage, name }) => (
-  <div className="card border-light mb-3" data-cy="tweet">
+  <div className="card border-light mb-3" data-testid="tweet">
     <div className="card-header">
       <img src={profileImage} alt="profile" className="rounded-circle" />
       <div className=" ">
