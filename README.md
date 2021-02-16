@@ -1,5 +1,5 @@
 ## How To Run
-- copy the contents of .env.example and create a .env or rename the file and remove example and input the keys and token you got from the twitter api
+- copy the contents of .env.example and create a .env or rename the file and remove ".example" and input the keys and token you got from the twitter api
 - run "npm install" on both the frontend directory(twitter-exercise-frontend) and the backend directory(twitter-exercise)
 - run "npm start" on both directories
 - open http://localhost:3001 in your preffered browser. Port 3001 because our backend is running on port 3000
@@ -17,7 +17,7 @@
 - Used bootstrap for stlying and responsiveness. Site is optimized for mobile devices
 - Cypress for unit testing since jest+react-testing-library doesn't seem to support scrolling for the intersection oberserver infinite scrolling functionality
 - create-react-app for project template
-- Implemented own infinite scrolling using intersection observer and useEffect hook to load more tweets on scroll
+- Implemented own infinite scrolling using intersection observer and useEffect hooks to load more tweets on scroll
 - Used inline styling where needed and for sticky header, however most stying is done via bootstrap
 - Eslint for linting and formatting
 
